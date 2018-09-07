@@ -5,7 +5,7 @@ module.exports = {
     title: "Stripeo and Amaza the Pirate Princess",
     author: "Ola Vea",
     description:
-      "A dad writes an online book about building Do-It-Yourself online payment with Stripe, Gatsby.js and Amaza Serveless Functions",
+      "A dad writes a book about building Do-It-Yourself online payment with Stripe, Gatsby.js and Amaza Serveless Functions",
     siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",

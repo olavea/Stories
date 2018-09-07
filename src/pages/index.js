@@ -2,7 +2,9 @@ import React from "react";
 import Link from "gatsby-link";
 import get from "lodash/get";
 import Helmet from "react-helmet";
-import Checkout from "../components/checkout";
+import Checkout from '../components/checkout'
+import Checkout2 from '../components/checkout2'
+import Checkout3 from '../components/checkout3'
 import { rhythm, scale } from "../utils/typography";
 
 class BlogIndex extends React.Component {
@@ -24,6 +26,8 @@ class BlogIndex extends React.Component {
         </header>
         <main>
           <Checkout /> 
+          <Checkout2 /> 
+          <Checkout3 /> 
           {posts.map(({ node }) => {
             const title = get(node, "frontmatter.title") || node.fields.slug;
             return (
