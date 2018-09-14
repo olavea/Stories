@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import get from "lodash/get";
 import Helmet from "react-helmet";
-
+import Checkout from "../components/checkout";
 import { rhythm, scale } from "../utils/typography";
 
 class BlogIndex extends React.Component {
@@ -10,9 +10,9 @@ class BlogIndex extends React.Component {
     const siteTitle = get(this, "props.data.site.siteMetadata.title");
     const siteDesc = get(this, "props.data.site.siteMetadata.description");
     const posts = get(this, "props.data.allMarkdownRemark.edges") || [];
-//#1dcaff hex Twitter Verified Blue RGB: 29, 202, 255
-//DCaff deux Caff two coffees
-// The blue hats blue coats, blue boots, blue suede shoes
+    //#1dcaff hex Twitter Verified Blue RGB: 29, 202, 255
+    //DCaff deux Caff two coffees
+    // The blue hats blue coats, blue boots, blue suede shoes
     return (
       <div>
         <Helmet title={siteTitle} />
@@ -41,6 +41,7 @@ class BlogIndex extends React.Component {
             );
           })}
         </main>
+        <Checkout />
       </div>
     );
   }

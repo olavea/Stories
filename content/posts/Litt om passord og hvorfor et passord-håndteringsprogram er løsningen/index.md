@@ -148,9 +148,9 @@ Ben pulls back her hood, revealing her kindly young girls face for the first tim
 –Yeah! How did you guess? He he, I love building things, and as you see I don't have that much experience.
 -
 
-Captain  SilverStockings turns to Lilly and says with a twinkle in his eye, “You must re-learn the basic ways of Java Script if you’re to come with me to Gatsby Haven town.”
+Captain  SilverStockings turns to Lilly and says with a twinkle in his eye, “You must re-learn the basic ways of Java Script if you’re to come with me to Gatsby Town.”
 
-–I'm not going to Gatsby Haven town with you, because ...
+–I'm not going to Gatsby Town with you, because ...
 –“You must do what you think is right, of course.”
 -
 

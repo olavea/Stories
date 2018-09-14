@@ -1,11 +1,9 @@
-// and with no intended identification with actual persons (living or deceased). No animals harmed
-
 module.exports = {
   siteMetadata: {
     title: "PIRATES vs TYRANTS",
     author: "Ola Vea",
     description:
-      "A Story for dev dads built with bits of real life in Lilly Labs and Gatsby.js.",
+      "A dad writes an online book about building Do-It-Yourself online payment with Stripe, Gatsby.js and Amaza Serveless Functions",
     siteUrl: "https://olavea.com/stories",
     feedbackFormLabels: {
       title: "Hei, se her!",
@@ -76,6 +74,7 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-stripe-checkout`,
     {
       resolve: "gatsby-plugin-typography",
       options: {
