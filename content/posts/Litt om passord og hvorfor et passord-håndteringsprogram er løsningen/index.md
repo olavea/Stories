@@ -1,7 +1,8 @@
 ---
-title: ...Part 1
-date: 2018-05-31
+title: "Part 1"
+date: 2018-09-03
 ---
+<<<<<<< HEAD
 “200+ years ago among
 the Scandinavian Pirate Islands…”
 
@@ -232,4 +233,11 @@ Benedicte luckily checks her phone and springs into action.
 –Yesss!
 
 --
+=======
 
+Introduction 
+
+Get a Stripe account here first.
+>>>>>>> c9639d378baec10d3131ae57213190827694541a
+
+Make a Gatsby site.

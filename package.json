@@ -12,6 +12,7 @@
     "gatsby-plugin-sharp": "^1.6.48",
     "gatsby-plugin-stripe-checkout": "^1.0.6",
     "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-plugin-stripe-checkout": "^1.0.6",
     "gatsby-remark-copy-linked-files": "^1.5.31",
     "gatsby-remark-images": "^1.5.61",
     "gatsby-remark-prismjs": "^1.2.24",

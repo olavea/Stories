@@ -2,7 +2,13 @@ import React from "react";
 import Link from "gatsby-link";
 import get from "lodash/get";
 import Helmet from "react-helmet";
+<<<<<<< HEAD
 import Checkout from "../components/checkout";
+=======
+import Checkout from '../components/checkout'
+import Checkout2 from '../components/checkout2'
+import Checkout3 from '../components/checkout3'
+>>>>>>> c9639d378baec10d3131ae57213190827694541a
 import { rhythm, scale } from "../utils/typography";
 
 class BlogIndex extends React.Component {
@@ -23,6 +29,7 @@ class BlogIndex extends React.Component {
           <p>{siteDesc}</p>
         </header>
         <main>
+          <Checkout /> 
           {posts.map(({ node }) => {
             const title = get(node, "frontmatter.title") || node.fields.slug;
             return (
@@ -41,7 +48,13 @@ class BlogIndex extends React.Component {
             );
           })}
         </main>
+<<<<<<< HEAD
         <Checkout />
+=======
+       
+        <Checkout2 /> 
+        <Checkout3 /> 
+>>>>>>> c9639d378baec10d3131ae57213190827694541a
       </div>
     );
   }
